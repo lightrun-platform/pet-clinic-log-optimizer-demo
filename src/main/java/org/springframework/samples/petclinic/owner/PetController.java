@@ -41,7 +41,9 @@ import jakarta.validation.Valid;
 @Controller
 @RequestMapping("/owners/{ownerId}")
 class PetController {
+
 	private static final Logger log = LoggerFactory.getLogger(PetController.class);
+
 	private static final String VIEWS_PETS_CREATE_OR_UPDATE_FORM = "pets/createOrUpdatePetForm";
 
 	private final OwnerRepository owners;

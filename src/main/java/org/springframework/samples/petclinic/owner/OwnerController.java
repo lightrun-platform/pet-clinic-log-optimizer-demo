@@ -45,6 +45,7 @@ import jakarta.validation.Valid;
  */
 @Controller
 class OwnerController {
+
 	private static final Logger log = LoggerFactory.getLogger(OwnerController.class);
 
 	private static final String VIEWS_OWNER_CREATE_OR_UPDATE_FORM = "owners/createOrUpdateOwnerForm";
