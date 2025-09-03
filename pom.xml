@@ -151,6 +151,12 @@
     <version>15.0.1</version>
     <scope>provided</scope>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.keycloak/keycloak-admin-client -->
+<dependency>
+    <groupId>org.keycloak</groupId>
+    <artifactId>keycloak-admin-client</artifactId>
+    <version>16.0.0</version>
+</dependency>
   </dependencies>
 
   <build>
