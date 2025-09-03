@@ -126,6 +126,19 @@
       <version>2.6</version>
     </dependency>
 
+<!-- https://mvnrepository.com/artifact/com.amazon.ion/ion-java -->
+<dependency>
+    <groupId>com.amazon.ion</groupId>
+    <artifactId>ion-java</artifactId>
+    <version>1.10.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.fhir/ucum -->
+<dependency>
+    <groupId>org.fhir</groupId>
+    <artifactId>ucum</artifactId>
+    <version>1.0.8</version>
+</dependency>
+
   </dependencies>
 
   <build>
