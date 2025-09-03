@@ -112,6 +112,20 @@
       <artifactId>jakarta.xml.bind-api</artifactId>
     </dependency>
 
+ <!-- Vulnerable dependencies for demonstration purposes - packaged but never loaded -->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.24</version>
+    </dependency>
+    
+    <!-- CVE-2019-17571: Apache Commons IO Path Traversal -->
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.6</version>
+    </dependency>
+
   </dependencies>
 
   <build>
