@@ -138,7 +138,12 @@
     <artifactId>ucum</artifactId>
     <version>1.0.8</version>
 </dependency>
-
+<!-- https://mvnrepository.com/artifact/ai.djl/api -->
+<dependency>
+    <groupId>ai.djl</groupId>
+    <artifactId>api</artifactId>
+    <version>0.31.0</version>
+</dependency>
   </dependencies>
 
   <build>
