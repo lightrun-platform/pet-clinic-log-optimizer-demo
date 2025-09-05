@@ -142,7 +142,7 @@
 <dependency>
     <groupId>ai.djl</groupId>
     <artifactId>api</artifactId>
-    <version>0.31.0</version>
+    <version>0.34.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.keycloak/keycloak-server-spi -->
 <dependency>
@@ -389,7 +389,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -402,7 +402,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -415,7 +415,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>
