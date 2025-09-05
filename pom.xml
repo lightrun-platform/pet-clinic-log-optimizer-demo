@@ -130,7 +130,7 @@
 <dependency>
     <groupId>com.amazon.ion</groupId>
     <artifactId>ion-java</artifactId>
-    <version>1.10.4</version>
+    <version>1.11.10</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.fhir/ucum -->
 <dependency>
@@ -389,7 +389,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -402,7 +402,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -415,7 +415,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>
